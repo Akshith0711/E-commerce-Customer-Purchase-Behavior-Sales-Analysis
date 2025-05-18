@@ -10,7 +10,7 @@ This is a data analysis project using customer transactions from an online retai
 
 ---
 
-## ✅ What I Did So Far
+##  What I Did So Far
 
 ### Day 1: Data Cleaning
 
@@ -37,14 +37,14 @@ I also created a **line chart** to see how sales changed over each month.
 
 ---
 
-## 🔧 Tools I Used
+##  Tools I Used
 
 - Python (pandas, matplotlib)
 - Jupyter Notebook
 
 ---
 
-## 📌 How to Run
+##  How to Run
 
 1. Download the dataset (`Year 2009-2010.csv`) from UCI.
 2. Run the notebook in Jupyter.
@@ -53,7 +53,7 @@ I also created a **line chart** to see how sales changed over each month.
 
 ---
 
-## 🔜 What's Next
+##  What's Next
 
 I will:
 - Continue to Day 3 with customer segmentation.
@@ -61,7 +61,7 @@ I will:
 
 ---
 
-## 👤 About Me
+##  About Me
 
 I'm learning data science and building real-world projects to grow my skills. This is one of my practice projects.
 

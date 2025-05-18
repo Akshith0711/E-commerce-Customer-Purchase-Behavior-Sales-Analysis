@@ -52,14 +52,61 @@ I also created a **line chart** to see how sales changed over each month.
 4. Then use the cleaned data for Day 2 analysis.
 
 ---
+Day 3: RFM Analysis - Customer Segmentation
+ ## 📌 What I Did on Day 3
 
-##  What's Next
+###  RFM Analysis
 
-I will:
-- Continue to Day 3 with customer segmentation.
-- Later build a dashboard using Power BI.
+- **Recency**: How recently a customer made a purchase.
+- **Frequency**: How often a customer made a purchase.
+- **Monetary**: How much money the customer spent.
+
+###  Steps Taken
+
+1. Loaded the cleaned dataset.
+2. Converted `InvoiceDate` to datetime format.
+3. Set a **reference date** for Recency calculation.
+4. Grouped by `CustomerID` to calculate:
+   - Recency: Days since last purchase
+   - Frequency: Number of invoices
+   - Monetary: Total amount spent
+5. Scored each metric into 1–5 scale.
+6. Created `RFM_Segment` and `RFM_Score` for customer grouping.
 
 ---
+
+##  Insights
+
+- Customers with high **RFM scores (e.g. 555)** are the most loyal and valuable.
+- Low scores (e.g. 111) indicate inactive or low-value customers.
+- This segmentation is helpful for targeting marketing strategies like:
+  - VIP rewards
+  - Re-engagement campaigns
+  - Upselling opportunities
+
+---
+
+##  What I Learned
+
+- How to compute Recency, Frequency, and Monetary metrics.
+- The power of RFM in understanding customer behavior.
+- How to score and segment customers using pandas.
+- Improved data grouping and lambda function usage.
+
+---
+
+##  Sample Output
+
+| CustomerID | Recency | Frequency | Monetary | R_Score | F_Score | M_Score | RFM_Segment | RFM_Score |
+|------------|---------|-----------|----------|---------|---------|---------|-------------|-----------|
+| 12345.0    |   12    |     4     | 500.00   |    4    |    3    |    2    |     432     |     9     |
+
+---
+##  Tools Used
+
+- Python
+- pandas
+- Jupyter Notebook
 
 ##  About Me
 

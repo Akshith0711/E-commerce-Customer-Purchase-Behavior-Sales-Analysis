@@ -107,29 +107,29 @@ Day 3: RFM Analysis - Customer Segmentation
 - Python
 - pandas
 - Jupyter Notebook
-  Day 4 Goal:
-   Analyzed how many customers return in future months after their first purchase and visualize it using a cohort heatmap.
+  ## Day 4 Goal:
+Analyze how many customers return in future months after their first purchase and visualize it using a cohort heatmap.
 
- What is a Cohort?
-  A cohort is a group of customers who made their first purchase in the same month.
+📌 What is a Cohort?
+A cohort is a group of customers who made their first purchase in the same month.
 
-  We track these groups to see:
+We track these groups to see:
 
-   How long they stay active
+How long they stay active
 
-   When they return
+When they return
 
-   How loyal they are over time
+How loyal they are over time
 
-✅Key Steps:
-1.  Data Preparation:
+ Key Steps:
+1. ## Data Preparation:
 Cleaned and formatted the dataset from previous days.
 
 Converted invoice dates to datetime format.
 
 Removed missing or canceled transactions.
 
-2.  Created Cohorts:
+2. ## Created Cohorts:
 Extracted:
 
 CohortMonth: when a user made their first purchase.
@@ -138,7 +138,7 @@ InvoiceMonth: when a user made any purchase.
 
 Calculated CohortIndex → how many months later a customer came back.
 
-3.  Created Cohort Tables:
+3. ## Created Cohort Tables:
 Cohort Table: Shows how many users returned each month.
 
 Retention Table: Shows the percentage of returning users.
@@ -150,19 +150,24 @@ Darker colors = more users returned that month.
 
 Easy to spot which cohorts are most loyal.
 
- Example Insights:
+ ## Example Insights:
 Some customer groups came back regularly for 4–6 months.
 
 Others stopped purchasing after their first visit.
 
 Helps marketing teams know which months brought high-retention customers.
 
- Tools Used:
+## Tools Used:
 pandas for data manipulation
 
 matplotlib & seaborn for visualization
 
 datetime for date handling
+
+
+
+
+
 
 ##  About Me
 

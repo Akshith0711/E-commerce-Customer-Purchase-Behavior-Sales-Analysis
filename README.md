@@ -148,7 +148,7 @@ Used seaborn to create a retention heatmap.
 
 Darker colors = more users returned that month.
 
-Easy to spot which cohorts are most loyal.
+.Easy to spot which cohorts are most loyal.
 
  ## Example Insights:
 Some customer groups came back regularly for 4–6 months.

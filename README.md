@@ -143,7 +143,7 @@ Cohort Table: Shows how many users returned each month.
 
 Retention Table: Shows the percentage of returning users.
 
-4.  Visualized Retention with a Heatmap:
+4. ## Visualized Retention with a Heatmap:
 Used seaborn to create a retention heatmap.
 
 Darker colors = more users returned that month.

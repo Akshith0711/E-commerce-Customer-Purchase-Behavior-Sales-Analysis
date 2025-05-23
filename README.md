@@ -165,6 +165,35 @@ matplotlib & seaborn for visualization
 datetime for date handling
 
 
+#  Day 5: Customer Lifetime Value (CLV) Analysis
+
+##  Objective
+
+On Day 5, I focused on calculating **Customer Lifetime Value (CLV)**, which helps us understand how valuable a customer is to the business over time. This insight helps in designing marketing strategies, loyalty programs, and allocating budgets effectively.
+
+---
+
+##  What is CLV?
+
+**Customer Lifetime Value** is the total revenue a business can reasonably expect from a single customer account throughout the business relationship.
+
+---
+
+## 📁 Dataset Used
+
+I used already cleaned dataset:  
+**`cleaned_online_retail.csv`**
+
+---
+
+## 🛠️ Steps Followed
+
+### 1. Calculated `TotalPrice`  
+I used the formula:  
+```python
+TotalPrice = Quantity * Price
+
+
 
 
 

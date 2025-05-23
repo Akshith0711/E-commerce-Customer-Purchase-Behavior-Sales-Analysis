@@ -192,6 +192,17 @@ I used already cleaned dataset:
 I used the formula:  
 ```python
 TotalPrice = Quantity * Price
+ ## What I Learned
+
+-  What Customer Lifetime Value (CLV) means and why it's important
+-  CLV helps businesses understand how much a customer is worth over time
+-  How to calculate CLV using:
+  - Total revenue per customer
+  - Number of orders
+  - Average customer lifetime (in days)
+-  Learned to group and aggregate customer data using Pandas
+-  How to calculate the time difference between a customer's first and last purchase
+-  Realized how CLV can improve decision-making in marketing and customer retention
 
 
 
